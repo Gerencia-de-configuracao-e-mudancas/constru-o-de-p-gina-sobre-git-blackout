@@ -8,9 +8,13 @@
 </head>
 <body>
     <h1>Git: O que é?</h1>
-    <p>Artigo 05/10/2023.</p>
-    <div class="link">
-        <a href="https://learn.microsoft.com/pt-br/devops/develop/git/what-is-git">Clique para ter acesso.</a>
+    <p id="artigo">Artigo 05/10/2023 <a href="https://learn.microsoft.com/pt-br/devops/develop/git/what-is-git">Disponível em:</a></p>
+    <h3>Neste artigo</h3>
+    <div class="Topicos">
+    <ol>
+        <li><a href="#Noções">Noções básicas do Git</a></li>
+        <li><a href="#Beneficios">Benefícios do Git</a></li>
+    </ol>
     </div>
     <p>O Git é um sistema de controle de versão distribuído, o que significa que um clone local do projeto é um repositório de controle de versão completo. Esses repositórios locais totalmente funcionais facilitam o trabalho offline ou remoto. Os desenvolvedores confirmam o trabalho localmente e depois sincronizam a cópia do repositório com a cópia no servidor. Esse paradigma é diferente do controle de versão centralizado, no qual os clientes devem sincronizar o código com um servidor antes de criar novas versões do código.
         A flexibilidade e a popularidade do Git o tornam uma ótima escolha para qualquer equipe. Muitos desenvolvedores e universitários já sabem como usar o Git. A comunidade de usuários do Git criou recursos para treinar desenvolvedores, e a popularidade do Git facilita a obtenção de ajuda quando necessário. Quase todos os ambientes de desenvolvimento têm suporte ao Git e as ferramentas de linha de comando do Git implementadas em todos os principais sistemas operacionais.
@@ -18,7 +22,7 @@
     <div class="Foto">
         <img src="https://git-scm.com/images/logos/downloads/Git-Logo-White.png" height="200px">
     </div>
-    <h1>Noções básicas do Git</h1>
+    <h1 id="Noções">Noções básicas do Git</h1>
     <p>Toda vez que o trabalho é salvo, o Git cria um commit. Um commit é um instantâneo de todos os arquivos em um momento específico. Se um arquivo foi alterado de um commit para outro, o Git usará o arquivo armazenado anteriormente. Esse esquema é diferente de outros sistemas que armazenam uma versão inicial de um arquivo e mantêm um registro de deltas ao longo do tempo.       
     </p>
     <div class="Foto">
@@ -40,11 +44,8 @@
     </div>
     <p>A preparação permite que os desenvolvedores escolham quais alterações de arquivo salvar em um commit para dividir grandes alterações em um grupo de commits menores. Ao reduzir o escopo dos commits, é mais fácil revisar o histórico de commits para encontrar alterações específicas de arquivos.
     </p>
-    <h1>Benefícios do Git</h1>
+    <h1 id="Beneficios">Benefícios do Git</h1>
     <p>Há inúmeros benefícios no Git.</p>
-    <h2>Desenvolvimento simultâneo</h2>
-    <p>Todos têm sua própria cópia local do código e podem trabalhar simultaneamente em seus próprios branches. O Git funciona offline, já que quase todas as operações são locais.
-    </p>
     <h2>Desenvolvimento simultâneo</h2>
     <p>Todos têm sua própria cópia local do código e podem trabalhar simultaneamente em seus próprios branches. O Git funciona offline, já que quase todas as operações são locais.
     </p>
@@ -58,7 +59,7 @@
     <p>O Git usa um código aberto e se tornou o padrão de fato para controle de versão. Há inúmeras opções de ferramentas e recursos disponíveis para as equipes aproveitarem. O volume de suporte da comunidade para o Git em comparação com outros sistemas de controle de versão facilita a obtenção de ajuda quando necessário.
     </p>
     <h2>O Git funciona com qualquer equipe</h2>
-    <p>Usar o Git com uma ferramenta de gerenciamento de código-fonte aumenta a produtividade de uma equipe, incentivando a colaboração, aplicando políticas, automatizando processos e melhorando a visibilidade e a rastreabilidade do trabalho. A equipe pode se contentar com ferramentas individuais para controle de versão, rastreamento de itens de trabalho e integração e implantação contínuas. Ou os membros da equipe podem escolher uma solução como o <a href="https://github.com/">Github</a> ou o <a href="https://azure.microsoft.com/pt-br/">Azure DevOps</a> que ofereça suporte a todas essas tarefas em um só lugar.
+    <p id="ferramentas">Usar o Git com uma ferramenta de gerenciamento de código-fonte aumenta a produtividade de uma equipe, incentivando a colaboração, aplicando políticas, automatizando processos e melhorando a visibilidade e a rastreabilidade do trabalho. A equipe pode se contentar com ferramentas individuais para controle de versão, rastreamento de itens de trabalho e integração e implantação contínuas. Ou os membros da equipe podem escolher uma solução como o <a href="https://github.com/">Github</a> ou o <a href="https://azure.microsoft.com/pt-br/">Azure DevOps</a> que ofereça suporte a todas essas tarefas em um só lugar.
     </p>
     <h2>Solicitações de pull</h2>
     <p>Use solicitações pull para discutir alterações de código com a equipe antes de mesclá-las no branch principal. As discussões em solicitações pull são inestimáveis para garantir a qualidade do código e melhorar o conhecimento de toda a sua equipe. Plataformas como o GitHub e o Azure DevOps oferecem uma experiência avançada de solicitação de pull, em que os desenvolvedores podem procurar alterações de arquivo, deixar comentários, inspecionar commits, exibir compilações e votar para aprovar o código.

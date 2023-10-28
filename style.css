@@ -1,5 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Roboto+Condensed&family=Roboto+Mono:ital,wght@0,400;0,500;1,300&display=swap');
 
+.Topicos {
+       text-align: left;
+        margin-top: 20px;
+            height: 90px;
+            width: 100%;
+}
+
+#artigo  a:hover {
+    color: aqua;
+   }
+
+li a:hover {
+    color: aqua;
+   }
+
+   #ferramentas a:hover {
+    color: aqua;
+   }
+
+   .Alunos a:hover {
+    color: aqua;
+   }
+
 body {
     background-color: black;
     height: 420vh;
@@ -8,7 +31,7 @@ body {
     font-family: 'Roboto Mono', monospace;
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: rgb(110, 215, 244);
 
 }
