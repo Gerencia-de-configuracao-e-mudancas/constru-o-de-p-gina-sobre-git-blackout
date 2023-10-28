@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1>Git: O que é?</h1>
-    <p id="artigo">Artigo 05/10/2023 <a href="https://learn.microsoft.com/pt-br/devops/develop/git/what-is-git">Disponível em:</a></p>
+    <p id="artigo">Artigo 05/10/2023 Disponível em: <a href="https://learn.microsoft.com/pt-br/devops/develop/git/what-is-git">O que é Git?</a></p>
     <h3>Neste artigo</h3>
     <div class="Topicos">
         <ol>
@@ -18,12 +18,14 @@
         </ol>
     </div>
     <div id="container">
+        <p id="separador">-</p>
         <p>O Git é um sistema de controle de versão distribuído, o que significa que um clone local do projeto é um repositório de controle de versão completo. Esses repositórios locais totalmente funcionais facilitam o trabalho offline ou remoto. Os desenvolvedores confirmam o trabalho localmente e depois sincronizam a cópia do repositório com a cópia no servidor. Esse paradigma é diferente do controle de versão centralizado, no qual os clientes devem sincronizar o código com um servidor antes de criar novas versões do código.
             A flexibilidade e a popularidade do Git o tornam uma ótima escolha para qualquer equipe. Muitos desenvolvedores e universitários já sabem como usar o Git. A comunidade de usuários do Git criou recursos para treinar desenvolvedores, e a popularidade do Git facilita a obtenção de ajuda quando necessário. Quase todos os ambientes de desenvolvimento têm suporte ao Git e as ferramentas de linha de comando do Git implementadas em todos os principais sistemas operacionais.
         </p>
         <div class="Foto">
             <img src="https://git-scm.com/images/logos/downloads/Git-Logo-White.png">
         </div>
+        <p id="separador">-</p>
         <h1 id="Noções">Noções básicas do Git</h1>
         <p>Toda vez que o trabalho é salvo, o Git cria um commit. Um commit é um instantâneo de todos os arquivos em um momento específico. Se um arquivo foi alterado de um commit para outro, o Git usará o arquivo armazenado anteriormente. Esse esquema é diferente de outros sistemas que armazenam uma versão inicial de um arquivo e mantêm um registro de deltas ao longo do tempo.       
         </p>
@@ -32,12 +34,14 @@
         </div>
         <p>Os commits criam links para outros commits, formando um gráfico do histórico de desenvolvimento. É possível reverter o código para um commit anterior, inspecionar como os arquivos foram alterados de um commit para outro e revisar informações, como onde e quando as alterações foram feitas. Os commits são identificados no Git por um hash criptográfico exclusivo do conteúdo do commit. Como tudo é criptografado hash, é impossível fazer alterações, perder informações ou corromper arquivos sem a detecção do Git.
         </p>
+        <p id="separador">-</p>
         <h1>Ramificações</h1>
         <p>Cada desenvolvedor salva as alterações em seu próprio repositório de código local. Como resultado, pode haver muitas alterações diferentes com base no mesmo commit. O Git fornece ferramentas para isolar as alterações e depois mesclá-las novamente. Os branches, que são ponteiros leves para o trabalho em andamento, gerenciam essa separação. Depois que o trabalho criado em um branch é concluído, ele pode ser mesclado novamente no branch principal (ou no tronco) da equipe.
         </p>
         <div class="Foto">
             <img src="https://learn.microsoft.com/pt-br/devops/_img/branching_line.png" width="500px">
         </div>
+        <p id="separador">-</p>
         <h1>Arquivos e commits</h1>
         <p>Os arquivos no Git estão em um dos três estados: modificado, preparado ou confirmado. Quando um arquivo é modificado pela primeira vez, as alterações existem apenas no diretório de trabalho. Eles ainda não fazem parte de um commit ou do histórico de desenvolvimento. O desenvolvedor deve preparar os arquivos alterados a serem incluídos no commit. A área de preparação contém todas as alterações a serem incluídas no próximo commit. Quando o desenvolvedor estiver satisfeito com os arquivos preparados, os arquivos serão empacotados como um commit com uma mensagem descrevendo o que foi alterado. Esse commit passa a fazer parte do histórico de desenvolvimento.
         </p>
@@ -46,6 +50,7 @@
         </div>
         <p>A preparação permite que os desenvolvedores escolham quais alterações de arquivo salvar em um commit para dividir grandes alterações em um grupo de commits menores. Ao reduzir o escopo dos commits, é mais fácil revisar o histórico de commits para encontrar alterações específicas de arquivos.
         </p>
+        <p id="separador">-</p>
         <h1 id="Beneficios">Benefícios do Git</h1>
         <p>Há inúmeros benefícios no Git.</p>
         <h2>Desenvolvimento simultâneo</h2>
@@ -68,7 +73,10 @@
         </p>
         <h2>Políticas de branch</h2>
         <p>As equipes podem configurar o GitHub e o Azure DevOps para aplicar fluxos de trabalho e processos consistentes em toda a equipe. Eles podem configurar políticas de branch para garantir que as solicitações pull atendam aos requisitos antes da conclusão. As políticas de branch protegem branches importantes, evitando transmissões diretas, exigindo revisores e garantindo compilações limpas.</p>
+        <p id="separador">-</p>
     </div>
+    <footer>  
         <p class="Alunos">Alunos: <a href="https://www.instagram.com/mayran.adriel/">Mayran</a> & <a href="https://www.instagram.com/hectorbelchior/">Hector</a></p>    
+    </footer>
 </body>
 </html>
