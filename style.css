@@ -8,6 +8,10 @@ body {
     overflow-x: hidden;
 }
 
+#cabecalho{
+    padding: 10px;
+}
+
 #container{
     display: flex;
     flex-direction: column;
