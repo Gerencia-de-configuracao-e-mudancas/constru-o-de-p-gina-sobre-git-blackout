@@ -9,13 +9,15 @@ body {
 }
 
 #cabecalho{
-    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
 }
 
 #container{
     display: flex;
     flex-direction: column;
-    padding: 100px;
+    padding: 70px;
 }
 
 .Topicos {
@@ -41,7 +43,7 @@ li a:hover {
 }
 
 
-h1, h2, h3 {
+h1, h2, h3, li {
     color: rgb(110, 215, 244);
 
 }
