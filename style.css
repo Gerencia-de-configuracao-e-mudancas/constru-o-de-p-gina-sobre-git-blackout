@@ -9,6 +9,7 @@ body {
 }
 
 #cabecalho{
+
     display: flex;
     flex-direction: column;
     padding: 70px;
@@ -43,7 +44,9 @@ li a:hover {
 }
 
 
+
 h1, h2, h3, li {
+
     color: rgb(110, 215, 244);
 
 }
